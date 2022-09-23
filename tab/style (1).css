@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: Arial;
+    font-size: 14px;
+    background: wheat;
+}
+table{
+    border: 1px;
+    padding: 0 25%;
+    border-top-left-radius: 20px;
+    padding: 10px;
+}
+form{
+    height: 500px;
+    border: 2px solid red;
+  border-radius: 20px;
+  padding: 30px;
+}
+td{
+    padding: 0 30px;
+    
+}
+tr{
+    line-height: 40px;
+}
+#head{
+    height: 200px;
+    line-height: 200px;
+}
+select{
+    background: white;
+}
+span{
+    color: red;
+}

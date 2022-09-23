@@ -1,0 +1,614 @@
+        .wb-social-media {
+            /* display: flex;
+    align-items: center;
+    justify-content: center; */
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        input {
+            border: none;
+            outline: navajowhite;
+        }
+        
+        #wd-header-top {
+            padding: 12px 0;
+            background-color: whitesmoke;
+        }
+        
+        .custom-width {
+            max-width: 1650px;
+            width: 95%;
+        }
+        
+        .wb-social-media {
+            overflow: hidden;
+            display: block;
+        }
+        
+        a.bh {
+            background: #1769ff;
+        }
+        
+        .wb-social-media {
+            text-align: left !important;
+            margin-bottom: 2px !important;
+            display: block;
+            overflow: hidden;
+        }
+        
+        .wb-social-media a {
+            display: inline-block;
+            margin-right: 4px;
+            color: #fff !important;
+            background: #8a8181;
+            height: 25px;
+            width: 25px;
+            text-align: center;
+            line-height: 24px;
+            font-size: 14px;
+        }
+        
+        a.bh {
+            background: #1769ff;
+        }
+        
+        a.ch {
+            background: #d3c75d;
+        }
+        
+        a.dh {
+            background: #a5272e;
+        }
+        
+        a.eh {
+            background: #0c4b16;
+        }
+        
+        a.fh {
+            background: #290875;
+        }
+        
+        a.gh {
+            background: #f30914;
+        }
+        
+        .line-height {
+            line-height: 34px;
+        }
+        
+        .offer-text p {
+            font-size: 16px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            color: #dc4b3e;
+            margin: 0;
+        }
+        
+        .language-and-currency-btn {
+            margin-top: 0;
+            text-align: right;
+        }
+        
+        img {
+            margin: 0 !important;
+            max-width: 100%;
+        }
+        
+        .btn-group::after {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: .255em;
+            vertical-align: .255em;
+            content: "";
+            border-top: .3em solid;
+            border-right: .3em solid transparent;
+            border-left: .3em solid transparent;
+            margin-top: 9px;
+        }
+        
+        .list {
+            padding: 0px;
+            background: transparent;
+            border-color: transparent;
+            color: #666;
+            font-size: 12px;
+            margin-left: 10px;
+            margin-top: 2px;
+        }
+        
+        #wd-header {
+            padding: 20px 0;
+        }
+        
+        .wd-btn-group input {
+            border-color: #ececec;
+            background: whitesmoke;
+            color: #a5a5a5;
+            font-size: 14px;
+            padding: 14px;
+        }
+        
+        .boder-right {
+            border: none;
+        }
+        
+        .wd-btn-search {
+            border-left: 0;
+            border-color: #ececec;
+            background: whitesmoke;
+            color: #a5a5a5;
+            padding: 14px;
+            cursor: pointer;
+        }
+        
+        .size {
+            font-size: 20px;
+        }
+        
+        .wd-btn-group {
+            margin-left: 10px;
+        }
+        
+        .btn-search-right {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .input-group-btn:hover {
+            transition: .5s;
+            background-color: #f58e08;
+            color: #fff;
+        }
+        
+        .acc-header-wraper {
+            display: flex;
+            justify-content: end;
+            padding-right: 17px;
+        }
+        
+        .account-section {
+            margin-top: 12px;
+            margin-right: 12px;
+        }
+        
+        .account-section button {
+            color: #333333;
+            padding: 0;
+            background: transparent;
+            border-color: transparent;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        
+        .account-section i {
+            margin-right: 4px;
+        }
+        
+        .account-section button .span {
+            font-size: 14px;
+        }
+        
+        .account-section button:hover span {
+            color: rgb(238, 65, 65);
+        }
+        
+        .header-cart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .header-cart .coupon-save {
+            position: absolute
+        }
+        
+        .header-cart .coupon-save {
+            font-size: 22px;
+            color: #333;
+            position: relative;
+            margin-right: 10px;
+        }
+        
+        .header-cart-3 {
+            display: flex;
+            text-align: center;
+        }
+        
+        .header-cart-3 .coupon-save i {
+            font-size: 22px;
+            color: #333;
+            position: relative;
+            margin-right: 10px;
+        }
+        
+        .header-cart-3 .count {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            width: 14px;
+            height: 14px;
+            background: #f44336;
+            text-align: center;
+            font-size: 10px;
+            color: #fff;
+            border-radius: 10px;
+            line-height: 12px;
+            margin-top: -7px;
+        }
+        
+        .header-cart-3 .count span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .sticky-wrapper {}
+        
+        #main-menu {
+            border-bottom: 2px solid #fdb813;
+            height: 55px;
+        }
+        
+        .sticker-nav {
+            z-index: 1025 !important;
+        }
+        
+        .wd-megamenu-ul {
+            position: static !important;
+            height: auto;
+            width: auto !important;
+            overflow: visible;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .wd-megamenu-ul {
+            display: flex;
+        }
+        
+        .menu-dropdown-icon {
+            padding: 15px 21px;
+        }
+        
+        .menu-dropdown-icon a {
+            color: #000;
+            text-decoration: none !important;
+        }
+        
+        .slider-bg1 {
+            background-image: url(https://www.themeim.com/demo/blurb/demo/img/slider-img/slider-bg-img.jpg);
+            position: relative;
+            width: 100%;
+            height: 60vh;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .wd-service {
+            background-color: #f5f5f5;
+            padding: 50px 0;
+        }
+        
+        .wd-service .service-box {
+            display: flex;
+        }
+        
+        .wd-service .service-box {
+            display: flex;
+        }
+        
+        .wd-service .service-box {
+            background: #fff;
+            padding: 35px 20px;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            position: relative;
+            overflow: hidden;
+            transition: 0.5s;
+            transform: translateY(0);
+        }
+        
+        .fadeIn {
+            animation-name: fadeIn;
+        }
+        
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+        
+        .wd-service .service-box img {
+            height: 50px;
+            width: 50px;
+        }
+        
+        .wd-service .box-text {
+            margin-left: 15px;
+        }
+        
+        .align-items-center {
+            -webkit-box-align: center!important;
+            -ms-flex-align: center!important;
+            align-items: center!important;
+        }
+        
+        .d-flex {
+            display: -webkit-box!important;
+            display: -ms-flexbox!important;
+            display: flex!important;
+        }
+        
+        .wd-service .box-text h5 {
+            font-size: 18px;
+            font-weight: 900;
+        }
+        
+        .wd-service .service-box .hover-img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        
+        .wd-service .service-box .hover-img img {
+            height: 100px;
+            width: 80px;
+        }
+        
+        #message {
+            padding: 9% 0;
+            background: transparent;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url(https://www.themeim.com/demo/blurb/demo/img/message/message-bg.jpg);
+            background-size: 100% 100%;
+        }
+        
+        #message .border-title {
+            color: white;
+            position: relative;
+            display: inline-block;
+            padding: 6px 0;
+        }
+        
+        #message .border-title::after {
+            content: "";
+            height: 6px;
+            width: 100%;
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            background: white;
+        }
+        
+        #message .border-title::before {
+            content: "";
+            height: 6px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: white;
+        }
+        
+        #message .description {
+            padding: 30px 34px 50px;
+            color: white;
+        }
+        
+        .wd-shop-btn {
+            background-color: #ee830a;
+            padding: 10px 15px;
+            color: #fff;
+            transition: .25s;
+        }
+        
+        #message .wd-shop-btn:hover {
+            background-color: #fff;
+            padding: 10px 15px;
+            color: #ee830a;
+        }
+        
+        #blog {
+            background: #f5f5f5;
+            padding: 50px 0;
+        }
+        
+        .section-title-center {
+            margin-bottom: 50px;
+            position: relative;
+        }
+        
+        .section-title-center .title {
+            position: relative;
+            z-index: 10;
+            background: #f5f5f5;
+            display: inline-block;
+            padding: 0 35px;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        
+        .section-title-center:before {
+            position: absolute;
+            content: "";
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #d6d6d6;
+            transform: translateY(-50%);
+        }
+        
+        #blog img {
+            height: 192px;
+        }
+        
+        #blog .blog-box {
+            border-radius: 5px;
+        }
+        
+        #blog .blog-box {
+            transition: 0.5s;
+        }
+        
+        #blog .figure {
+            background: white;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        #blog .figure-caption {
+            border: 0;
+        }
+        
+        .figure-caption {
+            padding: 18px 10px;
+            border: 1px solid #e5e5e5;
+            border-top: 0;
+            background: white;
+            transition: 0.5s;
+        }
+        
+        #blog a {
+            padding: 0;
+            font-size: 14px;
+            color: #ff9800;
+            font-weight: 500;
+        }
+        
+        #blog .mata-info ul {
+            display: flex;
+            padding: 0;
+            justify-content: space-evenly;
+        }
+        
+        #blog .mata-info ul li a {
+            color: #999;
+        }
+        
+        #blog .title {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        #blog .title .blog-title {
+            font-size: 20px;
+            font-weight: 500;
+            color: #333333;
+            display: inline-block;
+        }
+        
+        #blog .mata-info ul li i {
+            margin-right: 5px;
+            font-size: 20px;
+        }
+        
+        #blog .blog-title:hover,
+        #blog .mata-info ul li:hover a {
+            color: #ff9800;
+        }
+        
+        #blog .mata-info ul li a:hover {
+            text-decoration: none;
+        }
+        
+        #blog .mata-info ul li a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 17px;
+        }
+        
+        #blog .raed-more {
+            transition: .25s;
+        }
+        
+        #blog .raed-more:hover a {
+            color: rgb(59, 51, 51);
+            text-decoration: none;
+        }
+        
+        #blog .blog-content {
+            height: 68px;
+            /* font-weight: 300;
+            font-size: 15px;
+            color: #999;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
+            max-width: 100%;
+            -webkit-line-clamp: 2;
+            display: -webkit-box; */
+            margin-bottom: 20px;
+        }
+        
+        #blog .blog-content p {
+            font-weight: 300;
+            font-size: 15px;
+            color: #999;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
+            max-width: 100%;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+        }
+        
+        #call-to-action {
+            background-image: url(https://www.themeim.com/demo/blurb/demo/img/call-to-action-bg.jpg);
+            background: #5cc1ee;
+            padding: 50px 0;
+        }
+        
+        #call-to-action {
+            padding: 20px !important;
+        }
+        
+        #call-to-action .call-to-action-message {
+            color: #fff;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        
+        .bold-font {
+            font-weight: 900;
+        }
+        
+        input {
+            outline: medium none;
+            border: none;
+            ba
+        }
+        
+        .call-to-action-buy-now {
+            margin-top: 17px;
+        }
+        
+        .wd-shop-btn {
+            background: #ff9800;
+            border: 0;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 11px 21px;
+            border: 1px solid;
+            border-color: transparent;
+        }
+        
+        .wd-shop-btn i {
+            font-size: 15px;
+            margin-left: 8px;
+        }
+        
+        #details {
+            padding: 60px 0;
+        }

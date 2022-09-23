@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        .text-gray-90 {
+            color: #333e48;
+        }
+        
+        .font-size-15,
+        .nav-tab-pill .nav-link {
+            font-size: 0.938rem;
+        }
+        
+        .link {
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .font-weight-bold {
+            font-weight: 700 !important;
+        }
+        
+        .link__icon {
+            position: relative;
+            line-height: .7;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            width: 1.063rem;
+            height: 1.063rem;
+            font-size: 1rem;
+            color: #377dff;
+            background-color: #fed700;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+        
+        .ml-1,
+        .mx-1 {
+            margin-left: 0.25rem !important;
+        }
+        
+        .link__icon-inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        .link__icon i {
+            color: #fff;
+            margin-top: 0px;
+            font-size: 0.938rem;
+        }
+        
+        .ec {
+            display: inline-block;
+            font: normal normal normal 14px/1 font-electro;
+            font-size: inherit;
+            text-rendering: auto;
+            vertical-align: middle;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .link__icon-inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        .link:active .link__icon {
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <div class="link text-gray-90 font-weight-bold font-size-15">
+        Shop now
+        <span class="link__icon ml-1">
+            <span class="link__icon-inner">
+                <i class='bx bx-caret-right'></i>
+            </span>
+        </span>
+    </div> -->
+
+
+    <h1>Học lập trình miễn phí tại freetuts.net</h1>
+
+    <button onclick="myFunction()">Run</button>
+
+    <p id="demo"></p>
+
+    <script>
+        var date = new Date();
+        document.getElementById("demo").innerHTML = date;
+
+        function myFunction() {
+            var year = date.getFullYear();
+            document.getElementById("demo").innerHTML = 'Hiện tại là năm ' + year;
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+    .app .header .top-header {
+        background-color: #222222;
+    }
+    
+    .app .header .top-header .topheader {
+        height: 40px;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    
+    .app .header .top-header .topheader__left {
+        height: 100%;
+    }
+    
+    .app .header .top-header .topheader__left .topheader__left__list {
+        margin: 0;
+        padding-left: 0;
+        list-style: none;
+    }
+    
+    .app .header .top-header .topheader__left .topheader__left__list .topheader__left__item {
+        padding: 0 15px;
+        position: relative;
+    }
+    
+    .app .header .top-header .topheader__left .topheader__left__list .switch-language {
+        padding-left: 0;
+    }
+    
+    .switch-language {
+        margin-right: 15px;
+    }
+    
+    .switch-language::before {
+        content: "";
+        width: 1px;
+        height: 10px;
+        background: rgba(136, 136, 136, 0.2);
+        position: absolute;
+        right: -15px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    .select-language::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        border: solid transparent;
+        height: 0;
+        width: 0;
+        pointer-events: none;
+        border-top-color: #888;
+        border-width: 5px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    .app .header .top-header .topheader__right {
+        height: 100%;
+    }
+    
+    .app .header .top-header .topheader__right .topheader__right__list {
+        border-right: 1px solid rgba(136, 136, 136, 0.2);
+        margin: 0;
+        padding-left: 0;
+        list-style: none;
+    }
+    
+    .app .header .top-header .topheader__right .topheader__right__list .topheader__right__item {
+        padding: 0 15px;
+        border-left: 1px solid rgba(136, 136, 136, 0.2);
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    .app .header .top-header .topheader__right .topheader__right__list .topheader__right__item:hover {
+        color: #e34444;
+        transition: color 0.6s ease;
+    }
+    
+    .app .bot-header {
+        margin: 40px 0;
+    }
+    
+    .app .header .bot-header .botheader .sns-icon-box {
+        cursor: pointer;
+    }
+    
+    .app .header .bot-header .botheader .sns-icon-box .sns-icon-left {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #eaeaea;
+        justify-content: center;
+        margin-right: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .app .header .bot-header .botheader .sns-icon-box .sns-icon-left i {
+        color: #fff;
+        width: 16px;
+        z-index: 3;
+    }
+    
+    .app .header .bot-header .botheader .sns-icon-box .sns-icon-left::after {
+        content: "";
+        position: absolute;
+        height: 0;
+        /* left: 0;
+        right: 0; */
+        bottom: 0;
+        background: #e34444;
+        width: 100%;
+        transition: all 0.3s ease;
+        z-index: 2;
+    }
+    
+    .app .header .bot-header .botheader .sns-icon-box:hover .sns-icon-left::after {
+        height: 40px;
+    }
+    
+    .app .header .header__menu .header__menu__container {
+        height: 50px;
+        border-top: 1px dotted #000;
+        border-bottom: 1px solid #000;
+    }
+    
+    .app .header .header__menu .header__menu__container .sub-menu {
+        z-index: 10;
+        margin: 0;
+        padding-left: 0;
+        list-style: none;
+        height: 100%;
+        flex: 1;
+        justify-content: space-between;
+    }
+    
+    .app .header .header__menu .header__menu__container .sub-menu .sub-menu-item {
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .app .header .header__menu .header__menu__container .header__menu__right {
+        justify-content: space-between;
+        margin-left: 100px;
+        height: 100%;
+        width: 150px;
+    }
+    
+    .app .header .header__menu .header__menu__container .sub-menu .sub-menu-item .sub-menu__item__link {
+        text-decoration: none;
+        font-weight: 700;
+        color: #333;
+    }
+    
+    .app .header .header__menu .header__menu__container .sub-menu .sub-menu-item:hover .sub-menu__item__link {
+        color: #e34444;
+    }
+    
+    .app .header .header__menu .header__menu__container .sub-menu__item__link {
+        position: relative;
+        display: block;
+        color: #333;
+        font-weight: 700;
+        line-height: 50px;
+    }

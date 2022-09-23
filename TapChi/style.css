@@ -1,0 +1,87 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar .trancarousel_area {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.topbar .trancarousel_area .trand {
+    background: #FF5555;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    line-height: 17px;
+}
+
+.topbar .trancarousel_area .trancarousel_area_block {
+    font-size: 14px;
+    color: rgb(167, 161, 161);
+}
+
+.topbar .top_date_social {
+    display: flex;
+    justify-content: right;
+}
+
+.social1 .inline {
+    display: flex;
+    gap: 10px;
+}
+
+.topbar .top_date_social .paper_date {
+    padding-right: 25px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.topbar .top_date_social .paper_date p {
+    font-size: 14px;
+    opacity: .85;
+    font-weight: 400;
+}
+
+.topbar .top_date_social .paper_date::after {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 2px;
+    background: #17222B;
+    opacity: 0.3;
+    right: 5px;
+    top: 50%;
+    margin-top: -7.5px;
+}
+
+.social1 .inline i {
+    color: rgb(142, 136, 136);
+}
+
+.border_black {
+    border-bottom: 1px dashed #ccc;
+}
+
+
+/* -------------------------------------- */
+
+.white_bg {
+    background: #FFFFFF !important;
+}
+
+.logo_area {
+    padding: 10px 0;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}

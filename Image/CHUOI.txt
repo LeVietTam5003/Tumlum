@@ -1,0 +1,100 @@
+console.log("LÀM VIỆC VỚI CHUỖI:");
+console.log("");
+var myString = "Học JS lập JS trình JS tại F8!";
+console.log("Đo độ dài chuỗi:", myString.length);
+console.log("Tìm vị trí:", myString.indexOf("JS"));
+console.log("Tìm vị trí bắt đầu từ:", myString.indexOf("JS", 5));
+console.log("Tìm từ vị trí cuối:", myString.lastIndexOf("JS"));
+console.log("Cắt chuổi:", myString.slice(0));
+console.log("Cắt chuỗi theo vị trí:", myString.slice(7, 10));
+console.log("Cắt chuỗi từ vị trí cuối:", myString.slice(-7, -1));
+console.log("Thay thế chữ chỉ định trong chuỗi:", myString.replace("JS", "Javascript"));
+console.log("Thay thế tất cả chữ chỉ định trong chuỗi:", myString.replace(/JS/g, "Javascript")); // /JS/g là biểu thức chính quy
+console.log("Đổi thành chữ hoa tất cả chữ trong chuỗi:", myString.toUpperCase());
+console.log("Đổi thành chữ thường tất cả chữ trong chuỗi:", myString.toLowerCase());
+var myStringTwo = "     Học JS lập JS trình JS tại F8!     ";
+console.log("Loại bỏ khoảng trắng:", myStringTwo.trim());
+console.log("chứng minh đã loại bỏ:");
+console.log("Độ dài lúc chưa trim():", myStringTwo.length);
+console.log("Độ dài lúc đã trim():", myStringTwo.trim().length);
+var language = "Javascript, PHP, Ruby";
+console.log("Cắt chuỗi thành array dựa vào điểm chung:", language.split(", "));
+console.log("Cắt từng chữ thành array:", language.split(""));
+console.log("lấy kí tự tương ứng ở vị trí ?:", language.charAt(0)); // sai vị trí in chuỗi rỗng
+console.log("c2 để lấy kí tự tương ứng ở vị trí ?:", language[100]); // ra undefined
+
+//==========================================================================================================================//
+
+Đối tượng Number
+
+Phương thức					Vai trò
+Number.isFinite()		Xác định xem giá trị đã cho có phải là số hữu hạn hay không. Trả về boolean
+Number.isInteger()		Xác định xem giá trị đã cho có phải là số nguyên hay không. Trả về boolean
+Number.parseFloat()		Chuyển đổi chuỗi đã cho thành một số dấu phẩy động
+Number.parseInt()		Chuyển đổi chuỗi đã cho thành một số nguyên
+Number.prototype.toFixed()	Chuyển đổi và trả về chuỗi đại diện cho số đã cho, có số chữ số chính xác sau dấu thập phân
+Number.prototype.toString()	Chuyển đổi và trả về số đã cho dưới dạng chuỗi
+
+Ví dụ:
+
+Number.isFinite(2 / 0); // false
+Number.isFinite(20 / 5); // true
+Number.isFinite(0 / 0); // false
+
+Number.isInteger(999999999); // true
+Number.isInteger(0.2);       // false
+Number.isInteger(Math.PI);   // false
+
+Number.parseFloat('10') // 10
+Number.parseFloat('10.00') // 10
+Number.parseFloat('238,21') // 238
+Number.parseFloat('237.22') // 237.22
+Number.parseFloat('34 56 78') // 34
+Number.parseFloat(' 37 ') // 37
+Number.parseFloat('18 is my age') // 18
+
+Number.parseInt('10') // 10
+Number.parseInt('10.00') // 10
+Number.parseInt('238,21') // 238
+Number.parseInt('237.22') // 237
+Number.parseInt('34 56 78') // 34
+Number.parseInt(' 37 ') // 37
+Number.parseInt('18 is my age') // 18
+
+var numberObject = 1234.56789;
+
+numberObject.toFixed(); // '1235'
+numberObject.toFixed(1); // '1234.6'
+numberObject.toFixed(6); // '1234.567890'
+
+(11).toString();    // '11'
+(18).toString();     // '18'
+(17.3).toString();   // '17.3'
+
+//=======================================================//
+                     MẢNG
+1. toString() chuyển kiểu dữ liệu từ Arry => String(kiểu chuỗi)
+
+2. join() tương tự toString có thể thay đổi cái ký tự ngăn cách phần tử chuỗi sang ký tự bất kỳ
+
+3. pop() xoá element cuối và trả về phần tử đó
+
+4. push() thêm 1 hoặc nhiều element vào cuối mảng và trả về mảng mới sau thêm
+
+5. shift() xoá element đầu mảng và trả về phần tử đó
+
+6. unshift() thêm 1 hoặc nhiều element vào đầu mảng và trả về mảng mới sau thêm
+
+7. splcie(<>😭1), <>😭2), <>😭3))
+
+(1)chọn phẩn tử bắt đầu
+
+(2)nhập vào số phần tử muốn xoá
+
+(3)thêm vào các phần tử ....
+
+8. concat() nuối 2 mảng lại với nhau
+
+9. slice(<>😭1), <>😭2))
+
+chọn vị trí phần tử bắt đầu vầ kết thúc để cắt sau đó trả ra số phần tử đã cắt trong mảng

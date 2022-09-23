@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stude.css">
+</head>
+
+<body>
+    <h1>Lê Viết Tâm</h1>
+    <script>
+        // function showDialog() {
+        //     //code
+        //     alert("Hi xin chào các bạn")
+        // }
+
+        // showDialog();
+        // function writeLog(mesega) {
+        //     console.log(mesega)
+        // }
+
+        // writeLog(1234)
+
+        // function laSoNguyenDuong(value) {
+        //     return (Number.isInteger(value) && value > 0)
+        // }
+
+        // console.log(laSoNguyenDuong(12))
+
+        // function sum(a, b) {
+        //     a = Number(a);
+        //     b = Number(b);
+
+        //     return a + b;
+        // }
+        // console.log(sum(2, 3));
+
+
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+        11
+        12
+        13
+        14
+        15
+        16
+        17
+        18
+        19
+        20
+        21
+        22
+        23
+
+        function sum() {
+            let a = document.getElementById("num1").value;
+            let b = document.getElementById("num2").value;
+
+            // Kiểm tra dữ liệu
+            if (a == "" || b == "") {
+                alert("Vui lòng nhập vào hai số");
+                return false;
+            }
+
+            // Ép kiểu dữ liệu
+            a = Number(a);
+            b = Number(b);
+
+            if (isNaN(a) || isNaN(b)) {
+                alert("Bạn phải nhập vào hai số");
+                return false;
+            }
+
+            let sum = parseInt(a) + b;
+
+            document.getElementById('result').innerHTML = sum;
+        }
+    </script>
+
+</body>
+
+</html>

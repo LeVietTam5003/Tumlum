@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // var couse = [{
+        //     id: 1,
+        //     name: 'c/c++',
+        //     coin: 0
+        // }, {
+        //     id: 2,
+        //     name: 'javascrip',
+        //     coin: 550
+        // }, {
+        //     id: 3,
+        //     name: 'java',
+        //     coin: 450
+        // }, {
+        //     id: 4,
+        //     name: 'java',
+        //     coin: 750
+        // }, {
+        //     id: 5,
+        //     name: 'php',
+        //     coin: 0
+        // }]
+
+        // let array = [550, 240, 320, 110, 440, 550, 90]
+
+        // let kq = array.reduce(function(total, index) {
+        //     return total + index;
+        // }, 0)
+        // console.log(kq)
+
+        // let arrayint = [550, [240, 320], 110, [440, 550, 90]];
+        // let kqint = array.reduce(function(total, index) {
+        //     return total.concat(index)
+        // }, [])
+        // console.log(kqint)
+
+        // let array = [{
+        //     topic: 'Fornt-end',
+        //     courses: [{
+        //         id: 1,
+        //         title: 'HTML , CSS'
+        //     }, {
+        //         id: 2,
+        //         title: 'Javascrip'
+        //     }]
+        // }, {
+        //     topic: 'Back-end',
+        //     courses: [{
+        //         id: 1,
+        //         title: 'PHP'
+        //     }, {
+        //         id: 2,
+        //         title: 'Node JS'
+        //     }]
+        // }]
+
+        // let kq = array.reduce(function(course, item) {
+        //     return course.concat(item.courses)
+        // }, [])
+        // console.log(kq)
+
+        // let kq = couse.every(function(item) {
+        //     return item.coin == 0
+        // })
+        // console.log(kq)
+        // function findname(item, index) {
+        // return {
+        //     id: item.id,
+        //     name: `Khóa học : ${item.name}`,
+        //     coin: `Giá là ${ item.coin }`,
+        //     index: index,
+        //     orin: couse
+
+        // }
+        // return `<h2>${item.name}</h2>`
+
+        // let kq = couse.map(findname)
+
+        // console.log(kq.join(''))
+
+        let SanPham = [{
+            Ten: 'Ao so mi',
+            Gia: 4,
+            DanhSo: 1
+        }, {
+            Ten: 'Ao Khoat',
+            Gia: 4,
+            DanhSo: 5
+        }, {
+            Ten: 'Ao Phong',
+            Gia: 2,
+            DanhSo: 2
+        }]
+
+        // function sosanh(hoadon1, hoadon2) {
+        //     if (hoadon1.DanhSo < hoadon2.DanhSo) return 1
+        //     else return -1
+        // }
+
+        // let kq = SanPham.sort(sosanh)
+
+        // console.log(kq[0].Ten)
+
+        //a, function trả về tên hàng hóa có danh số cao nhất trong shop
+        // let layTen = function(item) {
+        //     let item_max = 0;
+
+        //     for (let i = 1; i < item.length; i++) {
+        //         if (item[i].DanhSo > item[item_max].DanhSo) {
+        //             item_max = i
+        //         }
+        //     }
+        //     return item[item_max].Ten
+        // }
+
+        // console.log(layTen(SanPham))
+        //b, function trả về tên hàng hóa có danh số thấp nhất trong shop
+        // let layTen = function(items) {
+        //     let item_min = 0;
+        //     for (let i = 1; i < items.length; i++) {
+        //         if (items[i].DanhSo < items[item_min].DanhSo)
+        //             item_min = i
+        //     }
+        //     return items[item_min].Ten
+        // }
+        // c, function trả về tổng doanh thu của shop, biết doanh thu = doanh so * gia ban
+        // let tongDanhThu = function(items) {
+        //     let tong = 0
+        //     for (let i = 0; i < items.length; i++) {
+        //         tong += (items[i].Gia * items[i].DanhSo)
+        //     }
+        //     return tong
+        // }
+
+        // let tongDanhThu = function(items) {
+        //     let tong = 0
+        //     for (let i = 0; i < items.length; i++) {
+        //         tong += items[i].DanhSo
+        //     }
+        //     return tong
+        // }
+
+        // console.log(tongDanhThu(SanPham))
+
+        // function sum(a, b) {
+        //     return a + b
+        // }
+        // let kq = sum(10, 20)
+
+
+        // if (kq < 20)
+        //     console.log('Nhỏ hơn 20')
+        // else console.log('Lớn hơn 20')
+
+        // for (let i = 0; i < 100; i++) {
+        //     if (i % 2 == 1)
+        //         console.log(i)
+        // }
+
+        // function tinhDT(radius) {
+        //     return 2 * radius
+        // }
+        // let kq = tinhDT(5)
+        // console.log(kq)
+
+        //         Bài 2: cho var data = [3,2,4,1,8,7,1,10,1,2]
+
+
+
+
+        // d, tính tích các số chẵn trong array
+
+        // f, số 1 đầu tiền và số 1 cuối cùng ở vị trí nào trong array
+
+        let data = [3, 1, 2, 4, 8, 7, 1, 10, 2]
+            // a, tính tổng các phần tử trong array
+        let kqA = function(items) {
+                let tong = 0
+                for (let i = 0; i < items.length; i++) {
+                    tong += items[i]
+                }
+                return tong
+            }
+            //console.log(kq(data))
+            // b, tính tích các phần từ trong array
+        let kqB = function(items) {
+                let tong = 1
+                for (let i = 0; i < items.length; i++) {
+                    tong *= items[i]
+                }
+                return tong
+            }
+            //console.log(kqB(data))
+            // c, tính tổng các số lẻ trong array
+        let kqC = function(items) {
+                let tong = 0
+                for (let i = 0; i < items.length; i++) {
+                    if (items[i] % 2 == 1)
+                        tong += items[i]
+                }
+                return tong
+            }
+            // console.log(kqC(data))
+
+        // e, có mấy số 1 trong array, ở những vị trí nào
+        let kqE = function(items) {
+                let demso = 0
+                let vitri
+                for (let i = 0; i < items.length; i++) {
+                    if (items[i] === 1) {
+                        demso++
+                        vitri = i
+                    }
+                }
+                return demso
+            }
+            // console.log(kqE(data))
+        let array = [1, 6, 8, 7, 6, 9]
+            // a, array trên có bao nhiêu phần tử
+            // console.log(array.length)
+            // b, hãy in ra phần tử đầu tiên và phần tử cuối cùng trong array
+            // console.log(array[0], array[array.length - 1])
+            // c, hãy thêm số 5 vào cuối array
+        array.push(5)
+        console.log(array)
+            // d, hãy thay đổi giá trị của phần tử đầu tiên và cuối cùng trong array thành số 10
+    </script>
+</body>
+
+</html>
